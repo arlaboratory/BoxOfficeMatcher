@@ -1,0 +1,30 @@
+//
+//  TableViewController.h
+//  boxOfficeMatcher
+//
+//  Copyright (c) 2012 ARLab. All rights reserved.
+//
+#define ROW_iPhone 71
+#define ROW_iPad 90
+
+#define SizeTitle_iPhone 15.0
+#define SizeTitle_iPad 25.0
+
+#import <UIKit/UIKit.h>
+#import "MainViewController.h"
+
+@interface TableViewController : UITableViewController
+{
+    int indice;
+};
+
+@property (nonatomic, strong) NSArray* _moviesArray;
+
+/**
+ *
+ *Initialize the table.
+ *
+ */
+-(id)myInit;
+
+@end
