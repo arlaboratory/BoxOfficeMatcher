@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/main.m
+END
+moviesDataHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/moviesDataHandler.h
+END
+TableViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/TableViewController.m
+END
+MovieInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/MovieInfo.h
+END
+texture.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/texture.png
+END
+moviesDataHandler.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/moviesDataHandler.m
+END
+MovieInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/MovieInfo.m
+END
+popupBackground.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/popupBackground.png
+END
+list_tabicon_active.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/list_tabicon_active.png
+END
+boxOfficeMatcher-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/boxOfficeMatcher-Info.plist
+END
+imagedetection_tabicon_active.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/imagedetection_tabicon_active.png
+END
+ListViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/ListViewController.h
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/AppDelegate.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/ViewController.h
+END
+ListViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/ListViewController.m
+END
+MovieCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/MovieCell.h
+END
+movie.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/movie.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/AppDelegate.m
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/ViewController.m
+END
+MovieCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/MovieCell.m
+END
+movie.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/movie.m
+END
+boxOfficeMatcher-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/boxOfficeMatcher-Prefix.pch
+END
+TableViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/QA/!svn/ver/132/sync/IMageMatching/iOS/samples/boxOfficeMatcher/appleProductScanner/TableViewController.h
+END
