@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "appleProductScanner/moviesDataHandler.m"
-         timestampString = "359633262.281808"
+         timestampString = "360752646.340589"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "136"
-         endingLineNumber = "136"
+         startingLineNumber = "158"
+         endingLineNumber = "158"
          landmarkName = "-removeAllFilesIn:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,24 +21,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "appleProductScanner/ViewController.m"
-         timestampString = "359635961.850037"
+         timestampString = "360670088.47203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "79"
-         endingLineNumber = "79"
+         startingLineNumber = "82"
+         endingLineNumber = "82"
          landmarkName = "-handleNotification:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "appleProductScanner/moviesDataHandler.m"
-         timestampString = "359633799.110823"
+         timestampString = "360752646.340589"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "173"
-         endingLineNumber = "173"
+         startingLineNumber = "195"
+         endingLineNumber = "195"
          landmarkName = "-reloadMoviesFromDB"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,12 +47,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "appleProductScanner/ViewController.m"
-         timestampString = "359635961.850037"
+         timestampString = "360670088.47203"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "77"
-         endingLineNumber = "77"
+         startingLineNumber = "80"
+         endingLineNumber = "80"
          landmarkName = "-handleNotification:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "appleProductScanner/moviesDataHandler.m"
+         timestampString = "360752587.931408"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "139"
+         endingLineNumber = "139"
+         landmarkName = "-addSkipBackupAttributeToItemAtURL:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -145,11 +145,11 @@
 		29E74C1E1558098B00D29F55 /* moviesDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moviesDataHandler.m; sourceTree = "<group>"; };
 		29E74C2115580A0200D29F55 /* movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movie.h; sourceTree = "<group>"; };
 		29E74C2215580A0200D29F55 /* movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movie.m; sourceTree = "<group>"; };
-		29E74C3015591F5D00D29F55 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
-		29E74C3115591F5D00D29F55 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		29E74C3015591F5D00D29F55 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		29E74C3115591F5D00D29F55 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		29E74C331559331600D29F55 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		29E74C341559331600D29F55 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		2A5CC27F15751886004EC2C9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2A5CC27F15751886004EC2C9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "appleProductScanner/icons/Default@2x.png"; sourceTree = "<group>"; };
 		2A5CC28915751AD9004EC2C9 /* splash_animation01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_animation01.png; sourceTree = "<group>"; };
 		2A5CC28A15751AD9004EC2C9 /* splash_animation02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_animation02.png; sourceTree = "<group>"; };
 		2A5CC28B15751AD9004EC2C9 /* splash_animation03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_animation03.png; sourceTree = "<group>"; };
@@ -176,10 +176,10 @@
 		2A5CC2BD15751AD9004EC2C9 /* box_office_icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_512.png; sourceTree = "<group>"; };
 		2A5CC2BE15751AD9004EC2C9 /* box_office_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_57.png; sourceTree = "<group>"; };
 		2A5CC2BF15751AD9004EC2C9 /* box_office_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_72.png; sourceTree = "<group>"; };
-		2A5CC2FE15754AD9004EC2C9 /* box_office_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_57.png; sourceTree = "<group>"; };
-		2A5CC30115754AE6004EC2C9 /* box_office_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_114.png; sourceTree = "<group>"; };
-		2A5CC30315754AF2004EC2C9 /* box_office_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_72.png; sourceTree = "<group>"; };
-		2A5CC30515754AFC004EC2C9 /* box_office_icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_office_icon_144.png; sourceTree = "<group>"; };
+		2A5CC2FE15754AD9004EC2C9 /* box_office_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_office_icon_57.png; path = appleProductScanner/icons/box_office_icon_57.png; sourceTree = "<group>"; };
+		2A5CC30115754AE6004EC2C9 /* box_office_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_office_icon_114.png; path = appleProductScanner/icons/box_office_icon_114.png; sourceTree = "<group>"; };
+		2A5CC30315754AF2004EC2C9 /* box_office_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_office_icon_72.png; path = appleProductScanner/icons/box_office_icon_72.png; sourceTree = "<group>"; };
+		2A5CC30515754AFC004EC2C9 /* box_office_icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box_office_icon_144.png; path = appleProductScanner/icons/box_office_icon_144.png; sourceTree = "<group>"; };
 		2A5CC30E15754DCD004EC2C9 /* splash_animation01_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_animation01_ipad.png; sourceTree = "<group>"; };
 		2A5CC30F15754DCD004EC2C9 /* splash_animation02_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_animation02_ipad.png; sourceTree = "<group>"; };
 		2A5CC31015754DCD004EC2C9 /* splash_animation03_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_animation03_ipad.png; sourceTree = "<group>"; };
@@ -203,12 +203,12 @@
 		2A5CC32415754DCD004EC2C9 /* top_bar_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bar_ipad.png; sourceTree = "<group>"; };
 		2A5CC32515754DCD004EC2C9 /* trailer_button_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trailer_button_ipad.png; sourceTree = "<group>"; };
 		2A5CC32615754DCD004EC2C9 /* website_button_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_button_ipad.png; sourceTree = "<group>"; };
-		2A5CC33E15754DF4004EC2C9 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
-		2A5CC34015754E13004EC2C9 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		2A5CC34215754E1B004EC2C9 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		2A5CC34415754E34004EC2C9 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		2A5CC33E15754DF4004EC2C9 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "appleProductScanner/icons/Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		2A5CC34015754E13004EC2C9 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "appleProductScanner/icons/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		2A5CC34215754E1B004EC2C9 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "appleProductScanner/icons/Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		2A5CC34415754E34004EC2C9 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "appleProductScanner/icons/Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		2A5CC34615754F63004EC2C9 /* splash_screen low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_screen low.png"; sourceTree = "<group>"; };
-		2A5CC34815754F6D004EC2C9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2A5CC34815754F6D004EC2C9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = appleProductScanner/icons/Default.png; sourceTree = "<group>"; };
 		2A762C73156AB0AC00A5F9C2 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		2A762C74156AB0AC00A5F9C2 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -686,6 +686,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -701,6 +702,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -712,6 +715,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -721,6 +725,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -730,6 +736,8 @@
 		29AEE251153C0EA200F2523E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -747,6 +755,8 @@
 					"-mvectorize-with-neon-quad",
 				);
 				PRODUCT_NAME = boxOfficeMatcher;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -754,6 +764,8 @@
 		29AEE252153C0EA200F2523E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -771,6 +783,8 @@
 					"-mvectorize-with-neon-quad",
 				);
 				PRODUCT_NAME = boxOfficeMatcher;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

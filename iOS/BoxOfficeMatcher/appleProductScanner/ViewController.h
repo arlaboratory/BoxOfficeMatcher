@@ -33,6 +33,7 @@
 }
 
 @property (nonatomic, strong) IBOutlet UIButton *updateBTN;
+@property (nonatomic) BOOL first;
 
 /**
  *

@@ -3,6 +3,7 @@ package com.arlab.boxofficematcher;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
@@ -43,6 +44,7 @@ public class MovieFullInfoDialog extends Dialog implements OnClickListener{
 	 */
 	public MovieFullInfoDialog(Context context,MovieInfo movieInfo) {
 		super(context,android.R.style.Theme_Light_NoTitleBar);
+		
 		mContext = context;
 		/** 'Window.FEATURE_NO_TITLE' - Used to hide the title */
 		requestWindowFeature(Window.FEATURE_NO_TITLE);

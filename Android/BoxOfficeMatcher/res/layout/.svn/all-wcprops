@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout/main.xml
+END
+tab_matcher_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout/tab_matcher_layout.xml
+END
+movie_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout/movie_list_layout.xml
+END
+movie_full_info_dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout/movie_full_info_dialog_layout.xml
+END
+tab_llist_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout/tab_llist_layout.xml
+END
+movie_list_row_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/QA/!svn/ver/152/sync/IMageMatching/Android/arlab_imm_and_beta120504/samples/BoxOfficeMatcher/res/layout/movie_list_row_layout.xml
+END

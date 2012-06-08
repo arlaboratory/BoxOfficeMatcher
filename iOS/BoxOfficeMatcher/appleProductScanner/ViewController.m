@@ -17,14 +17,14 @@
 @end
 
 @implementation ViewController
-@synthesize updateBTN;
+@synthesize updateBTN,first;
 
 static BOOL PopUpActive;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    first=TRUE;
     PopUpActive = TRUE;
 
     //Initialize cvSDK.
@@ -49,14 +49,17 @@ static BOOL PopUpActive;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNotification:) name:@"MovieAdded" object:nil];    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deleteImagesOfLibrary:) name:@"DeleteImages" object:nil];    
-
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(removeAlert:) name:@"RemoveAlert" object:nil];
+    
 
     mainController = (MainViewController*)self.parentViewController.parentViewController;
     
     _moviesArray = mainController.moviesHandler.movies;
     
 }
-
+-(void)removeAlert:(NSNotification*)note {
+    [_cvView start];
+}
 - (void)handleNotification:(NSNotification*)note {
     BOOL resultAdd=FALSE;
     NSDate *myDate = (NSDate *)[[NSUserDefaults standardUserDefaults] objectForKey:@"dateKey"];
@@ -89,6 +92,10 @@ static BOOL PopUpActive;
 
 -(void)viewDidAppear:(BOOL)animated{
     [_cvView start];
+    if(first){
+        first=FALSE;
+        [_cvView stop];
+    }
     PopUpActive = TRUE;
 }
 

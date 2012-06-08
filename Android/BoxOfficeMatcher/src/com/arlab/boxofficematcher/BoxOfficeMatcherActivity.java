@@ -35,6 +35,7 @@ import com.arlab.imagerecognition.ARmatcherCallBack;
  * Main view 
  */
 public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChangeListener, ARmatcherCallBack{
+	private static final int ImagePoolQuality = 10;
 	private static final String API_KEY = "0YpBx5XDf09CrCJBvHw=";
 	private ARmatcher aRmatcher;		
 	
@@ -54,7 +55,7 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 	private TextView popupRatinBarText;
 
 	private RelativeLayout touchLayout;
-
+	private boolean first;
 	public enum MatcherErrors {ErrorConnection, ErrorNoImages, ErrorNoSD, NoError};
 	
 	
@@ -62,7 +63,7 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		
 		setContentView(R.layout.main);
 
 		initTabView();
@@ -75,8 +76,11 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 		int screenwidth = displaymetrics.widthPixels;
 
 		/**Create an instance of the ARmatcher object. */
-		aRmatcher = new ARmatcher(this, this,API_KEY,ARmatcher.SCREEN_ORIENTATION_PORTRAIT,screenwidth,screenheight);
-
+		if(((double)screenheight)/((double)screenwidth)>1)
+			aRmatcher = new ARmatcher(this, this,API_KEY,ARmatcher.SCREEN_ORIENTATION_PORTRAIT,screenwidth,screenheight, true);
+		else
+			aRmatcher = new ARmatcher(this, this,API_KEY,ARmatcher.SCREEN_ORIENTATION_LANDSCAPE,screenwidth,screenheight, true);
+		
 		/**Set the type of the matching. */
 		aRmatcher.setMatchingType(ARmatcher.IMAGE_MATCHER);
 
@@ -84,7 +88,7 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 		aRmatcher.enableMedianFilter(true);
 
 		/**Set minimum image quality threshold ,for image to be accepted to the image pool*/
-		aRmatcher.setImageQuality(7);
+		aRmatcher.setImageQuality(ImagePoolQuality);
 
 
 		/**
@@ -117,9 +121,10 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 			}
 		});
 
+		first=true;
 		/** Start Movie Process*/
 		movieInfoDownloader = new MovieInfoLoader(this,aRmatcher);   
-		movieInfoDownloader.LoadMovieInfo(true);
+		movieInfoDownloader.LoadMovieInfo(false);
 	}
 
 
@@ -149,7 +154,6 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 
 	/** Controls the matcher library process*/
 	public void onTabChanged(String arg0) {
-
 		if(aRmatcher != null)
 		{
 			if (arg0.equals(AR_MATCHER_TAB)) {
@@ -200,6 +204,10 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 			 * */
 		aRmatcher.start();
 		
+		if(first){
+			aRmatcher.stop();
+			first=false;
+		}
 	}
 	@Override
 	protected void onPause() {
@@ -234,6 +242,8 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 			ad.setMessage("No SD card available");
 			ad.setButton("OK", (DialogInterface.OnClickListener) null);
 			ad.show();
+		}else if(error==MatcherErrors.NoError){
+			aRmatcher.start();
 		}
 	}
 	
@@ -251,6 +261,7 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case 1:
+			aRmatcher.stop();
 			movieInfoDownloader.LoadMovieInfo(true);		     
 			return true;
 

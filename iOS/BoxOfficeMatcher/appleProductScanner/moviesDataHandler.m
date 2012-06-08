@@ -102,6 +102,11 @@
         }
         
         BOOL FILESave = [dictionary writeToFile:file atomically:YES];
+        if(FILESave){
+            NSURL *urlFile=[NSURL URLWithString:file];
+            [self addSkipBackupAttributeToItemAtURL:urlFile];
+        }
+            
         
         movie.movieInfo = dictionary;
         
@@ -115,6 +120,11 @@
         if(posterdat!=nil)
             IMAGESAVE = [posterdat writeToFile:imagefile atomically:YES];
         
+        if(IMAGESAVE){
+            NSURL *urlFile=[NSURL URLWithString:imagefile];
+            [self addSkipBackupAttributeToItemAtURL:urlFile];
+        }
+
         movie.posterImage = [UIImage imageWithData:posterdat];
         
         if(FILESave && IMAGESAVE){
@@ -123,6 +133,18 @@
     }
     
 
+}
+- (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL
+{
+    assert([[NSFileManager defaultManager] fileExistsAtPath: [URL path]]);
+    
+    NSError *error = nil;
+    BOOL success = [URL setResourceValue: [NSNumber numberWithBool: YES]
+                                  forKey: NSURLIsExcludedFromBackupKey error: &error];
+    if(!success){
+        NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
+    }
+    return success;
 }
 
 -(void)removeAllFilesIn:(NSSearchPathDirectory) dir

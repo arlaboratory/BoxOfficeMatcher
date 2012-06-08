@@ -3,7 +3,7 @@
     <dimen name="list_movie_title_text_size">37dp</dimen>
     <dimen name="list_movie_title_margin_top">27dp</dimen>
     <dimen name="list_movie_rating_text_size">37dp</dimen>
-    <dimen name="star_height">35px</dimen>
+    <dimen name="star_height">21dp</dimen>
     <dimen name="star_rating_max_width">350dp</dimen>
     <dimen name="movie_info_bg_title_margin_top">12dp</dimen>
     <dimen name="movie_info_poster_height">365dp</dimen>
