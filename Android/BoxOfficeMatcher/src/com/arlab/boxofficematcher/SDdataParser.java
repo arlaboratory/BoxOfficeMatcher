@@ -34,7 +34,8 @@ public class SDdataParser {
 	private String posterInfoRootFolder;
 	
 	
-	public static ArrayList<MovieInfo> MoviesArray = new ArrayList<MovieInfo>();	
+	public static ArrayList<MovieInfo> MoviesArray = new ArrayList<MovieInfo>();
+	private BufferedReader br;	
 	
 	public SDdataParser(BoxOfficeMatcherActivity context,ARmatcher aRmatcher) {
 		this.mContext = context;
@@ -275,7 +276,7 @@ public class SDdataParser {
 			 
 
 		        if (file.exists()) {
-		        	BufferedReader br = new BufferedReader(new FileReader(file));
+		        	br = new BufferedReader(new FileReader(file));
 		        	StringBuilder text = new StringBuilder();
 		        	String line;
 

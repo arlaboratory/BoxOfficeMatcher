@@ -25,16 +25,16 @@ import android.widget.TextView;
 
 import com.arlab.boxofficematcher.listview.MovieListView;
 import com.arlab.boxofficematcher.objects.MovieInfo;
-import com.arlab.brmatcher.ROI;
+import com.arlab.imagerecognition.ROI;
 import com.arlab.imagerecognition.ARmatcher;
-import com.arlab.imagerecognition.ARmatcherCallBack;
+import com.arlab.callbacks.ARmatcherImageCallBack;
 
 
 
 /**
  * Main view 
  */
-public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChangeListener, ARmatcherCallBack{
+public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChangeListener, ARmatcherImageCallBack{
 	private static final int ImagePoolQuality = 10;
 	private static final String API_KEY = "0YpBx5XDf09CrCJBvHw=";
 	private ARmatcher aRmatcher;		
@@ -77,9 +77,9 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 
 		/**Create an instance of the ARmatcher object. */
 		if(((double)screenheight)/((double)screenwidth)>1)
-			aRmatcher = new ARmatcher(this, this,API_KEY,ARmatcher.SCREEN_ORIENTATION_PORTRAIT,screenwidth,screenheight, true);
+			aRmatcher = new ARmatcher(this,API_KEY,ARmatcher.SCREEN_ORIENTATION_PORTRAIT,screenwidth,screenheight, true);
 		else
-			aRmatcher = new ARmatcher(this, this,API_KEY,ARmatcher.SCREEN_ORIENTATION_LANDSCAPE,screenwidth,screenheight, true);
+			aRmatcher = new ARmatcher(this,API_KEY,ARmatcher.SCREEN_ORIENTATION_LANDSCAPE,screenwidth,screenheight, true);
 		
 		/**Set the type of the matching. */
 		aRmatcher.setMatchingType(ARmatcher.IMAGE_MATCHER);
@@ -89,7 +89,9 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 
 		/**Set minimum image quality threshold ,for image to be accepted to the image pool*/
 		aRmatcher.setImageQuality(ImagePoolQuality);
-
+		
+		/**Set image and QR matching callbacks */
+        aRmatcher.setImageRecognitionCallback(this);
 
 		/**
 		 * Add camera view instance to the matcher tab
@@ -171,7 +173,7 @@ public class BoxOfficeMatcherActivity extends TabActivity implements OnTabChange
 	 * 
 	 * @param res accepted matcher result
 	 * */	
-	public void ImageRecognitionResult(int res) {
+	public void onImageRecognitionResult(int res) {
 
 		if(res != -1)
 		{									

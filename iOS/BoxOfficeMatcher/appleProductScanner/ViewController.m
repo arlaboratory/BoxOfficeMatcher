@@ -28,8 +28,8 @@ static BOOL PopUpActive;
     PopUpActive = TRUE;
 
     //Initialize cvSDK.
-    _cvView = [[cvSDK alloc] initWithAppKey:API_KEY useDefaultCamera:YES];
-    [_cvView setDelegate:self];
+    _cvView = [[ImageMatcher alloc] initWithAppKey:API_KEY useDefaultCamera:YES];
+    [_cvView setMatcherDelegate:self];
     [_cvView setImagePoolMinimumRating:10];
     [_cvView setEnableMedianFilter:YES];
     [_cvView setMatchMode:matcher_mode_Image];
@@ -153,7 +153,7 @@ static BOOL PopUpActive;
 
 #pragma mark matcher delegate
 
--(void)imageMatched:(int)uId
+-(void)imageRecognitionResult:(int)uId
 {
     [self performSelectorOnMainThread:@selector(showMoviePopup:) withObject:[NSNumber numberWithInt:uId] waitUntilDone:NO];
 }

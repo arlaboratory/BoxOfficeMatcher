@@ -9,14 +9,14 @@
 #define API_KEY @"33UIqVTjawzALYJqP/nhApazE8xonJgE7QhpnyDUfw=="
 
 #import <UIKit/UIKit.h>
-#import <CVSDK/cvsdk.h>
+#import <CVSDK/ImageMatcher.h>
 #import "MainViewController.h"
 #import "DLStarRatingControl.h"
 
 
 @interface ViewController : UIViewController <matcherProtocol>
 {
-    cvSDK* _cvView;
+    ImageMatcher* _cvView;
     IBOutlet UIView *_matchView;
     NSArray* _moviesArray;
     
